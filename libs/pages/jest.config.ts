@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'chat',
+  displayName: 'pages',
   preset: 'react-native',
   resolver: '@nrwl/jest/plugins/resolver',
   moduleFileExtensions: ['ts', 'js', 'html', 'tsx', 'jsx'],

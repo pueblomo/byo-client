@@ -1,0 +1,403 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Conversation should render successfully 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#2089dc",
+        "borderBottomColor": "#f2f2f2",
+        "borderBottomWidth": 0.5,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 10,
+        "paddingVertical": 10,
+      }
+    }
+    testID="headerContainer"
+  >
+    <RNCSafeAreaView
+      edges={
+        Array [
+          "left",
+          "top",
+          "right",
+        ]
+      }
+      style={
+        Object {
+          "flexDirection": "row",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flex": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 3,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          text="Peter Schwanz"
+        >
+          Peter Schwanz
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "flex": 1,
+          }
+        }
+      />
+    </RNCSafeAreaView>
+  </View>
+  <BVLinearGradient
+    colors={
+      Array [
+        4286171077,
+        4294573055,
+      ]
+    }
+    endPoint={
+      Object {
+        "x": 0.5,
+        "y": 1,
+      }
+    }
+    locations={null}
+    startPoint={
+      Object {
+        "x": 0.5,
+        "y": 0,
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView>
+      <View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "column-reverse",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "shadowColor": "#171717",
+                "shadowOffset": Object {
+                  "height": 3,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 2,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                Object {
+                  "alignSelf": "flex-end",
+                  "backgroundColor": "#79C7C5",
+                  "borderRadius": 10,
+                  "marginBottom": 10,
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                  "maxWidth": "60%",
+                  "padding": 10,
+                  "transform": Array [
+                    Object {
+                      "translateY": -50,
+                    },
+                  ],
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Nerv nicht
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "shadowColor": "#171717",
+                "shadowOffset": Object {
+                  "height": 3,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 2,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "#777777",
+                  "borderRadius": 10,
+                  "marginBottom": 10,
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                  "maxWidth": "60%",
+                  "padding": 10,
+                  "transform": Array [
+                    Object {
+                      "translateY": -50,
+                    },
+                  ],
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Hamena
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "shadowColor": "#171717",
+                "shadowOffset": Object {
+                  "height": 3,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 2,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "#777777",
+                  "borderRadius": 10,
+                  "marginBottom": 10,
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                  "maxWidth": "60%",
+                  "padding": 10,
+                  "transform": Array [
+                    Object {
+                      "translateY": -50,
+                    },
+                  ],
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Hamena
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "shadowColor": "#171717",
+                "shadowOffset": Object {
+                  "height": 3,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 2,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "#777777",
+                  "borderRadius": 10,
+                  "marginBottom": 10,
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                  "maxWidth": "60%",
+                  "padding": 10,
+                  "transform": Array [
+                    Object {
+                      "translateY": -50,
+                    },
+                  ],
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                lkajsdlkjask alsdkjalkjd alsdkjlka dalkj
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "shadowColor": "#171717",
+                "shadowOffset": Object {
+                  "height": 3,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 2,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "#777777",
+                  "borderRadius": 10,
+                  "marginBottom": 10,
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                  "maxWidth": "60%",
+                  "padding": 10,
+                  "transform": Array [
+                    Object {
+                      "translateY": -50,
+                    },
+                  ],
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Hamena
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "shadowColor": "#171717",
+                "shadowOffset": Object {
+                  "height": 3,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 2,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "#777777",
+                  "borderRadius": 10,
+                  "marginBottom": 10,
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                  "maxWidth": "60%",
+                  "padding": 10,
+                  "transform": Array [
+                    Object {
+                      "translateY": -50,
+                    },
+                  ],
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Hamena
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </BVLinearGradient>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "height": "8%",
+      }
+    }
+  >
+    <TextInput
+      placeholder="Type your message"
+      style={
+        Object {
+          "color": "#79C7C5",
+        }
+      }
+    />
+  </View>
+</View>
+`;

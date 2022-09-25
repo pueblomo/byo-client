@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'chat',
+  displayName: 'ui',
   preset: 'react-native',
   resolver: '@nrwl/jest/plugins/resolver',
   moduleFileExtensions: ['ts', 'js', 'html', 'tsx', 'jsx'],
@@ -8,6 +8,6 @@ module.exports = {
     '.svg': '@nrwl/react-native/plugins/jest/svg-mock',
   },
   transformIgnorePatterns: [
-    'node_modules/(?!(@react-native|react-native|react-native-vector-icons|@rneui/base))',
+    'node_modules/(?!(@react-native|react-native|react-native-vector-icons))',
   ],
 };

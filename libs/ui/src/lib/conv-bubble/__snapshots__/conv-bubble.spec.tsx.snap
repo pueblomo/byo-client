@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConvBubble should render self successfully 1`] = `
+<View
+  style={
+    Object {
+      "shadowColor": "#171717",
+      "shadowOffset": Object {
+        "height": 3,
+        "width": 0,
+      },
+      "shadowOpacity": 0.4,
+      "shadowRadius": 2,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "alignSelf": "flex-end",
+        "backgroundColor": "#79C7C5",
+        "borderRadius": 10,
+        "marginBottom": 10,
+        "marginLeft": 20,
+        "marginRight": 20,
+        "marginTop": 10,
+        "maxWidth": "60%",
+        "padding": 10,
+        "transform": Array [
+          Object {
+            "translateY": -50,
+          },
+        ],
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+       Render incomming message 
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ConvBubble should render successfully 1`] = `
+<View
+  style={
+    Object {
+      "shadowColor": "#171717",
+      "shadowOffset": Object {
+        "height": 3,
+        "width": 0,
+      },
+      "shadowOpacity": 0.4,
+      "shadowRadius": 2,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#777777",
+        "borderRadius": 10,
+        "marginBottom": 10,
+        "marginLeft": 20,
+        "marginRight": 20,
+        "marginTop": 10,
+        "maxWidth": "60%",
+        "padding": 10,
+        "transform": Array [
+          Object {
+            "translateY": -50,
+          },
+        ],
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+       Render incomming message 
+    </Text>
+  </View>
+</View>
+`;
