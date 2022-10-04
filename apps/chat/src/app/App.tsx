@@ -4,6 +4,7 @@ import { SafeAreaView, StatusBar, View } from 'react-native';
 
 import { Conversation } from '@byo-client/pages';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { white } from '@byo-client/global';
 
 export const App = () => {
   return (

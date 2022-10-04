@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@byo-client/global": ["libs/global/src/index.ts"],
       "@byo-client/pages": ["libs/pages/src/index.ts"],
       "@byo-client/ui": ["libs/ui/src/index.ts"]
     }

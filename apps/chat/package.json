@@ -13,6 +13,7 @@
     "@rneui/base": "*",
     "react-native-safe-area-context": "*",
     "react-native-drop-shadow": "*",
-    "react-native-linear-gradient": "*"
+    "react-native-linear-gradient": "*",
+    "react-native-vector-icons": "*"
   }
 }

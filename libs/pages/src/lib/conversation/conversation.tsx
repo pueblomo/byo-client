@@ -4,6 +4,7 @@ import { Header } from '@rneui/base';
 import { View, StyleSheet, ScrollView } from 'react-native';
 import { ConvBubble, MessageInput } from '@byo-client/ui';
 import LinearGradient from 'react-native-linear-gradient';
+import { white } from '@byo-client/global';
 
 /* eslint-disable-next-line */
 export interface ConversationProps {}
@@ -15,19 +16,33 @@ export interface Message {
 
 export function Conversation(props: ConversationProps) {
   const [messages, setMessages] = useState<Message[]>([
-    { isSelf: true, content: 'Nerv nicht' },
     { isSelf: false, content: 'Hamena' },
     { isSelf: false, content: 'Hamena' },
     { isSelf: false, content: 'lkajsdlkjask alsdkjalkjd alsdkjlka dalkj' },
     { isSelf: false, content: 'Hamena' },
     { isSelf: false, content: 'Hamena' },
+    { isSelf: true, content: 'Nerv nicht' },
   ]);
+  const scrollViewRef = React.useRef<ScrollView>(null);
+
+  function onClick(text: string) {
+    setMessages([...messages, { isSelf: true, content: text }]);
+  }
+
   return (
     <View style={styles.container}>
-      <Header centerComponent={{ text: 'Peter Schwanz' }} />
+      <Header
+        centerComponent={{ text: 'Peter Schwanz' }}
+        backgroundColor="#ffffff"
+      />
 
-      <LinearGradient colors={['#79C7C5', '#F9FBFF']} style={styles.gradient}>
-        <ScrollView>
+      <LinearGradient colors={[white, white]} style={styles.gradient}>
+        <ScrollView
+          ref={scrollViewRef}
+          onContentSizeChange={() => {
+            scrollViewRef.current?.scrollToEnd({ animated: true });
+          }}
+        >
           <View style={styles.bubbleContainer}>
             {messages.map((message, key) => (
               <ConvBubble key={key} isSelf={message.isSelf}>
@@ -37,7 +52,7 @@ export function Conversation(props: ConversationProps) {
           </View>
         </ScrollView>
       </LinearGradient>
-      <MessageInput />
+      <MessageInput onClick={onClick} />
     </View>
   );
 }
@@ -48,7 +63,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   bubbleContainer: {
-    flexDirection: 'column-reverse',
     flex: 1,
   },
   gradient: {

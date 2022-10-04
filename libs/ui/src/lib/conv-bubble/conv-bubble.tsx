@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from 'react';
 import { StyleSheet, Animated } from 'react-native';
 import MyText from '../my-text/my-text';
 import DropShadow from 'react-native-drop-shadow';
+import { dark23, primary, white } from '@byo-client/global';
 
 /* eslint-disable-next-line */
 export interface ConvBubbleProps {
@@ -13,23 +14,31 @@ export interface ConvBubbleProps {
 export function ConvBubble(props: ConvBubbleProps) {
   const appliedStyles = [];
   const translation = useRef(new Animated.Value(-50)).current;
+  const translationSelf = useRef(new Animated.Value(50)).current;
 
   useEffect(() => {
     Animated.timing(translation, {
       toValue: 0,
       useNativeDriver: true,
     }).start();
-  }, [translation]);
+    Animated.timing(translationSelf, {
+      toValue: 0,
+      useNativeDriver: true,
+    }).start();
+  }, [translation, translationSelf]);
 
   appliedStyles.push(styles.container);
-  appliedStyles.push({ transform: [{ translateY: translation }] });
   if (props.isSelf) {
     appliedStyles.push(styles.self);
+    appliedStyles.push({ transform: [{ translateX: translationSelf }] });
+  } else {
+    appliedStyles.push({ transform: [{ translateX: translation }] });
   }
+
   return (
     <DropShadow style={styles.shadowProp}>
       <Animated.View style={appliedStyles}>
-        <MyText>{props.children}</MyText>
+        <MyText style={styles.text}>{props.children}</MyText>
       </Animated.View>
     </DropShadow>
   );
@@ -50,12 +59,15 @@ const styles = StyleSheet.create({
     marginRight: 20,
     borderRadius: 10,
     padding: 10,
-    backgroundColor: '#777777',
+    backgroundColor: dark23,
     alignSelf: 'flex-start',
   },
   self: {
     alignSelf: 'flex-end',
-    backgroundColor: '#79C7C5',
+    backgroundColor: primary,
+  },
+  text: {
+    color: white,
   },
 });
 

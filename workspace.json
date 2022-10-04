@@ -4,6 +4,7 @@
   "projects": {
     "chat": "apps/chat",
     "chat-e2e": "apps/chat-e2e",
+    "global": "libs/global",
     "pages": "libs/pages",
     "ui": "libs/ui"
   }

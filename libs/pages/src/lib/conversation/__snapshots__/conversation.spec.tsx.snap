@@ -13,7 +13,7 @@ exports[`Conversation should render successfully 1`] = `
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": "#2089dc",
+        "backgroundColor": "#ffffff",
         "borderBottomColor": "#f2f2f2",
         "borderBottomWidth": 0.5,
         "flexDirection": "row",
@@ -75,7 +75,7 @@ exports[`Conversation should render successfully 1`] = `
   <BVLinearGradient
     colors={
       Array [
-        4286171077,
+        4294573055,
         4294573055,
       ]
     }
@@ -98,16 +98,267 @@ exports[`Conversation should render successfully 1`] = `
       }
     }
   >
-    <RCTScrollView>
+    <RCTScrollView
+      onContentSizeChange={[Function]}
+    >
       <View>
         <View
           style={
             Object {
               "flex": 1,
-              "flexDirection": "column-reverse",
             }
           }
         >
+          <View
+            style={
+              Object {
+                "shadowColor": "#171717",
+                "shadowOffset": Object {
+                  "height": 3,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 2,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "#969696",
+                  "borderRadius": 10,
+                  "marginBottom": 10,
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                  "maxWidth": "60%",
+                  "padding": 10,
+                  "transform": Array [
+                    Object {
+                      "translateX": 0,
+                    },
+                  ],
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontWeight": "bold",
+                    },
+                    Object {
+                      "color": "#F9FBFF",
+                    },
+                  ]
+                }
+              >
+                Hamena
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "shadowColor": "#171717",
+                "shadowOffset": Object {
+                  "height": 3,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 2,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "#969696",
+                  "borderRadius": 10,
+                  "marginBottom": 10,
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                  "maxWidth": "60%",
+                  "padding": 10,
+                  "transform": Array [
+                    Object {
+                      "translateX": 0,
+                    },
+                  ],
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontWeight": "bold",
+                    },
+                    Object {
+                      "color": "#F9FBFF",
+                    },
+                  ]
+                }
+              >
+                Hamena
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "shadowColor": "#171717",
+                "shadowOffset": Object {
+                  "height": 3,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 2,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "#969696",
+                  "borderRadius": 10,
+                  "marginBottom": 10,
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                  "maxWidth": "60%",
+                  "padding": 10,
+                  "transform": Array [
+                    Object {
+                      "translateX": 0,
+                    },
+                  ],
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontWeight": "bold",
+                    },
+                    Object {
+                      "color": "#F9FBFF",
+                    },
+                  ]
+                }
+              >
+                lkajsdlkjask alsdkjalkjd alsdkjlka dalkj
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "shadowColor": "#171717",
+                "shadowOffset": Object {
+                  "height": 3,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 2,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "#969696",
+                  "borderRadius": 10,
+                  "marginBottom": 10,
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                  "maxWidth": "60%",
+                  "padding": 10,
+                  "transform": Array [
+                    Object {
+                      "translateX": 0,
+                    },
+                  ],
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontWeight": "bold",
+                    },
+                    Object {
+                      "color": "#F9FBFF",
+                    },
+                  ]
+                }
+              >
+                Hamena
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "shadowColor": "#171717",
+                "shadowOffset": Object {
+                  "height": 3,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 2,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "#969696",
+                  "borderRadius": 10,
+                  "marginBottom": 10,
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                  "maxWidth": "60%",
+                  "padding": 10,
+                  "transform": Array [
+                    Object {
+                      "translateX": 0,
+                    },
+                  ],
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontWeight": "bold",
+                    },
+                    Object {
+                      "color": "#F9FBFF",
+                    },
+                  ]
+                }
+              >
+                Hamena
+              </Text>
+            </View>
+          </View>
           <View
             style={
               Object {
@@ -136,7 +387,7 @@ exports[`Conversation should render successfully 1`] = `
                   "padding": 10,
                   "transform": Array [
                     Object {
-                      "translateY": -50,
+                      "translateX": 0,
                     },
                   ],
                 }
@@ -144,237 +395,17 @@ exports[`Conversation should render successfully 1`] = `
             >
               <Text
                 style={
-                  Object {
-                    "fontWeight": "bold",
-                  }
+                  Array [
+                    Object {
+                      "fontWeight": "bold",
+                    },
+                    Object {
+                      "color": "#F9FBFF",
+                    },
+                  ]
                 }
               >
                 Nerv nicht
-              </Text>
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "shadowColor": "#171717",
-                "shadowOffset": Object {
-                  "height": 3,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.4,
-                "shadowRadius": 2,
-              }
-            }
-          >
-            <View
-              collapsable={false}
-              style={
-                Object {
-                  "alignSelf": "flex-start",
-                  "backgroundColor": "#777777",
-                  "borderRadius": 10,
-                  "marginBottom": 10,
-                  "marginLeft": 20,
-                  "marginRight": 20,
-                  "marginTop": 10,
-                  "maxWidth": "60%",
-                  "padding": 10,
-                  "transform": Array [
-                    Object {
-                      "translateY": -50,
-                    },
-                  ],
-                }
-              }
-            >
-              <Text
-                style={
-                  Object {
-                    "fontWeight": "bold",
-                  }
-                }
-              >
-                Hamena
-              </Text>
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "shadowColor": "#171717",
-                "shadowOffset": Object {
-                  "height": 3,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.4,
-                "shadowRadius": 2,
-              }
-            }
-          >
-            <View
-              collapsable={false}
-              style={
-                Object {
-                  "alignSelf": "flex-start",
-                  "backgroundColor": "#777777",
-                  "borderRadius": 10,
-                  "marginBottom": 10,
-                  "marginLeft": 20,
-                  "marginRight": 20,
-                  "marginTop": 10,
-                  "maxWidth": "60%",
-                  "padding": 10,
-                  "transform": Array [
-                    Object {
-                      "translateY": -50,
-                    },
-                  ],
-                }
-              }
-            >
-              <Text
-                style={
-                  Object {
-                    "fontWeight": "bold",
-                  }
-                }
-              >
-                Hamena
-              </Text>
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "shadowColor": "#171717",
-                "shadowOffset": Object {
-                  "height": 3,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.4,
-                "shadowRadius": 2,
-              }
-            }
-          >
-            <View
-              collapsable={false}
-              style={
-                Object {
-                  "alignSelf": "flex-start",
-                  "backgroundColor": "#777777",
-                  "borderRadius": 10,
-                  "marginBottom": 10,
-                  "marginLeft": 20,
-                  "marginRight": 20,
-                  "marginTop": 10,
-                  "maxWidth": "60%",
-                  "padding": 10,
-                  "transform": Array [
-                    Object {
-                      "translateY": -50,
-                    },
-                  ],
-                }
-              }
-            >
-              <Text
-                style={
-                  Object {
-                    "fontWeight": "bold",
-                  }
-                }
-              >
-                lkajsdlkjask alsdkjalkjd alsdkjlka dalkj
-              </Text>
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "shadowColor": "#171717",
-                "shadowOffset": Object {
-                  "height": 3,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.4,
-                "shadowRadius": 2,
-              }
-            }
-          >
-            <View
-              collapsable={false}
-              style={
-                Object {
-                  "alignSelf": "flex-start",
-                  "backgroundColor": "#777777",
-                  "borderRadius": 10,
-                  "marginBottom": 10,
-                  "marginLeft": 20,
-                  "marginRight": 20,
-                  "marginTop": 10,
-                  "maxWidth": "60%",
-                  "padding": 10,
-                  "transform": Array [
-                    Object {
-                      "translateY": -50,
-                    },
-                  ],
-                }
-              }
-            >
-              <Text
-                style={
-                  Object {
-                    "fontWeight": "bold",
-                  }
-                }
-              >
-                Hamena
-              </Text>
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "shadowColor": "#171717",
-                "shadowOffset": Object {
-                  "height": 3,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.4,
-                "shadowRadius": 2,
-              }
-            }
-          >
-            <View
-              collapsable={false}
-              style={
-                Object {
-                  "alignSelf": "flex-start",
-                  "backgroundColor": "#777777",
-                  "borderRadius": 10,
-                  "marginBottom": 10,
-                  "marginLeft": 20,
-                  "marginRight": 20,
-                  "marginTop": 10,
-                  "maxWidth": "60%",
-                  "padding": 10,
-                  "transform": Array [
-                    Object {
-                      "translateY": -50,
-                    },
-                  ],
-                }
-              }
-            >
-              <Text
-                style={
-                  Object {
-                    "fontWeight": "bold",
-                  }
-                }
-              >
-                Hamena
               </Text>
             </View>
           </View>
@@ -385,19 +416,107 @@ exports[`Conversation should render successfully 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "white",
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "flexDirection": "row",
         "height": "8%",
+        "justifyContent": "space-around",
       }
     }
   >
     <TextInput
+      onChangeText={[Function]}
       placeholder="Type your message"
+      placeholderTextColor="#79C7C5"
       style={
         Object {
           "color": "#79C7C5",
+          "width": "80%",
         }
       }
+      value=""
     />
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "borderRadius": 2,
+          },
+          Object {
+            "marginRight": 10,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+      testID="RNE_BUTTON_WRAPPER"
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "busy": false,
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#2089dc",
+              "borderColor": "#2089dc",
+              "borderRadius": 30,
+              "borderWidth": 0,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "padding": 5,
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "Feather",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
   </View>
 </View>
 `;

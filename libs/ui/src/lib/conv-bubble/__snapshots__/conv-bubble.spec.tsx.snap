@@ -29,7 +29,7 @@ exports[`ConvBubble should render self successfully 1`] = `
         "padding": 10,
         "transform": Array [
           Object {
-            "translateY": -50,
+            "translateX": 50,
           },
         ],
       }
@@ -37,9 +37,14 @@ exports[`ConvBubble should render self successfully 1`] = `
   >
     <Text
       style={
-        Object {
-          "fontWeight": "bold",
-        }
+        Array [
+          Object {
+            "fontWeight": "bold",
+          },
+          Object {
+            "color": "#F9FBFF",
+          },
+        ]
       }
     >
        Render incomming message 
@@ -67,7 +72,7 @@ exports[`ConvBubble should render successfully 1`] = `
     style={
       Object {
         "alignSelf": "flex-start",
-        "backgroundColor": "#777777",
+        "backgroundColor": "#969696",
         "borderRadius": 10,
         "marginBottom": 10,
         "marginLeft": 20,
@@ -77,7 +82,7 @@ exports[`ConvBubble should render successfully 1`] = `
         "padding": 10,
         "transform": Array [
           Object {
-            "translateY": -50,
+            "translateX": -50,
           },
         ],
       }
@@ -85,9 +90,14 @@ exports[`ConvBubble should render successfully 1`] = `
   >
     <Text
       style={
-        Object {
-          "fontWeight": "bold",
-        }
+        Array [
+          Object {
+            "fontWeight": "bold",
+          },
+          Object {
+            "color": "#F9FBFF",
+          },
+        ]
       }
     >
        Render incomming message 
